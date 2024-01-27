@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssassesment.css">
+    <title>Css Assesment</title>
+</head>
+<body>
+    <div class="watermark">CSS</div>    
+    <div class="quiz-container">
+        <div id="question-container" class="question-container"></div>
+        <div id="answer-buttons" class="answer-buttons"></div>
+        <div class="controls">
+            <button id="previous-btn" class="btn" onclick="changeQuestion(-1)">Previous</button>
+            <button id="next-btn" class="btn" onclick="changeQuestion(1)">Next</button>
+            <button id="submit-btn" class="btn" onclick="submitQuiz()">Submit</button>
+            <button id="hint-btn" class="btn" onclick="showHint()">Hint</button>
+        </div>
+        <div id="result-container" class="result-container"></div>
+        <div id="counter-container" class="counter-container"></div>
+    </div>
+
+    <script src="cssassesment.js"></script>
+</body>
+</html>

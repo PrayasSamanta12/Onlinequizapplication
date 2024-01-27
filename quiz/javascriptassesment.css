@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    background-color: bisque;
+}
+
+.watermark {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    font-size: 150px;
+    color: rgba(249, 2, 2, 0.499); /* Adjust the alpha value for transparency */
+    pointer-events: none; /* Make sure the watermark doesn't interfere with interactions */
+}
+
+.quiz-container {
+    width: 400px;
+    text-align: center;
+    position: relative; /* Ensure the quiz content is positioned relative to the body */
+    z-index: 1;
+}
+
+.btn {
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.answer-btn {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.counter-container {
+    margin-top: 10px;
+    font-weight: bold;
+}

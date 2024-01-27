@@ -1,0 +1,65 @@
+/* Add your styles here */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.link {
+    color: #f81f1f;
+    font-size: 20px;
+    margin-right: 20px;
+    text-align: right;
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+
+.banner {
+    background-color: hsla(128, 67%, 72%, 0.521);
+    color: #000000;
+    padding: 30px;
+    text-align: center;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(239, 49, 229, 0.196);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card a {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #010101;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+}
